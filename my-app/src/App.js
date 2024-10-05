@@ -1,11 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import styled from '@emotion/styled'
+
+
+const Button = styled.button`
+  padding: 32px;
+  background-color: hotpink;
+  font-size: 24px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  &:hover {
+    color: white;
+  }
+`
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+
         <img src={logo} className="App-logo" alt="logo" />
+        
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,8 +32,22 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+
+          https://emotion.sh/docs/introduction
+
+          kaka
         </a>
+
+
+        <Button>
+          Hello world
+          </Button>
       </header>
+
+      <div>
+        
+      </div>
+
     </div>
   );
 }
