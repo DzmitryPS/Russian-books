@@ -31,11 +31,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-
-          https://emotion.sh/docs/introduction
-
-          kaka
+          Learn React TEST
         </a>
 
 
